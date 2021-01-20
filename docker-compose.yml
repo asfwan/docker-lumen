@@ -35,7 +35,7 @@ db:
   image: mariadb:latest
   # command: --default-authentication-plugin=mysql_native_password # needed as of mysql 8
   ports:
-    - "3306:3306"
+    - "3307:3307"
   environment:
     MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     MYSQL_DATABASE: ${MYSQL_DATABASE}
